@@ -1,0 +1,21 @@
+<ion-menu [content]="content" side="right">
+
+  <ion-header>
+    <ion-navbar>
+              <ion-buttons start>
+                          <button ion-button menuToggle>
+                            <ion-icon name="menu"></ion-icon>
+                          </button> 
+                        </ion-buttons>  
+    </ion-navbar>
+  </ion-header>
+
+<ion-content padding class="no-scroll">
+    <ion-label class="title" (click)="AnasayfaPage()" style="color: aliceblue">Anasayfa</ion-label>
+    <ion-label class="title" (click)="OdalarPage()" style="color: aliceblue">Odalarımız</ion-label>
+    <ion-label class="title" (click)="HizmetlerPage()" style="color: aliceblue">Hizmetlerimiz</ion-label>
+    <ion-label class="title" (click)="HakkimizdaPage()" style="color: aliceblue">Hakkımızda</ion-label>
+    <ion-label class="title" (click)="IletisimPage()" style="color: aliceblue">İletişim</ion-label>
+</ion-content>
+</ion-menu>
+<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>

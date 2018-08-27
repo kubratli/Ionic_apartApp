@@ -1,5 +1,7 @@
 {
   "name": "apartapp",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "ionic-angular"
 }

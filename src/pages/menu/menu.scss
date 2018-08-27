@@ -1,0 +1,17 @@
+@import url('https://fonts.google.com/specimen/Caveat?selection.family=Caveat');
+page-menu {
+    .title{
+        font-size: 4vh!important;
+        font-weight: Lighter!important;
+        font-family: 'Caveat', cursive;
+        transform: translate(50%, 50%);
+    } 
+    ion-menu{
+        ion-content{
+         background-color:#b30000 !important;
+        }
+       }
+       .no-scroll .scroll-content{
+        overflow: hidden;
+   }
+}
